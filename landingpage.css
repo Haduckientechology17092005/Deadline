@@ -2,12 +2,13 @@ body{
     position: relative;
 }
 .header {
-    height: 25%;
-    width: calc(100%-20px);
+    height: auto;
+    width: auto;
     flex-direction: row;
     justify-content: center;
     display: flex;
     margin: 10px;
+    overflow: hidden;
 }
 .Apple {
     display: inline block;
@@ -138,8 +139,8 @@ body{
     display: block;
 }
 .box{
-    width: calc(100%-20px);
-    height: 10vh;
+    width: auto;
+    height: auto;
     background-color: rgb(255, 255, 255);
     margin: 10px;
 }
@@ -148,16 +149,18 @@ body{
 }
 .section-welcome{
     position: relative;
-    overflow: hidden;
+    height: auto;
     padding-bottom: 20px;
     padding-top: 8px;
     text-align: center;
+    width: auto;
+    margin-bottom: 90px;
 }
 .section-content{
     position: relative;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    width: 980px;
+    width: auto;
 }
 .welcome{
     padding-top: 8px;
@@ -179,11 +182,14 @@ h2{
     margin: 40px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .welcome-lockup{
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 .box2{
     width: 100px;
@@ -193,6 +199,7 @@ h2{
     text-align: center;
     border-radius: 40px;
     position: relative;
+    margin-bottom: 10px;
     
 }
 .Buy{
@@ -207,4 +214,312 @@ h2{
 }
 .box2:hover {
     background-color: rgb(0, 136, 255);
+}
+.text{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Get-the-highlights{
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+.get-the-highlight{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            width: calc(100%-20px);
+            height: auto;
+            margin-bottom: 100px;
+ 
+}
+.text-highlight-left {
+    position: absolute;
+    font-size: 2.5em;
+    color: black;
+    margin-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.text-highlight-right{
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+}
+.a{
+    color: #007BFF;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.get-the-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    display: none;
+}
+
+#button1:checked ~ #image1,
+#button2:checked ~ #image2,
+#button3:checked ~ #image3,
+#button4:checked ~ #image4 {
+    display: block;
+}
+.Take{
+    width: calc(100%-20px);
+    height: 1000px;
+    background-color: white;   
+}
+.Explore{
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.Explore-the-full-story{
+    height: auto;
+    width: 60%;
+    padding-top: 114px;
+    text-align: center;
+    margin-bottom: 100px;
+    border: 1px solid white;
+}
+.Explore-the-full-story-text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;  
+}
+.Explore-the-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+.Explore-the-heading-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;      
+}
+.Explore-the-body{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+.Explore-the-body-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    word-wrap: break-word;
+    overflow-wrap: break-word;      
+}
+.Explore-the-image{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 250px;
+}
+.Explore-the-image1{
+    width: calc(100%/3);
+    height: auto;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.Explore-the-image1-text1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 255, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Explore-the-image2-text1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Explore-the-image3-text1{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(115, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Game-changing-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    margin-bottom: 100px;
+}
+.Game-changing-heading-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;   
+}
+.Game-changing-image{
+    height: auto;
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 100px;
+}
+.Game-changing-border{
+    border: 0.001cm solid rgb(187, 187, 187);
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 60px;s
+}
+.Game-changing-note{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Game-changing-note-text1{
+    width: calc(100%/2);
+    margin-right: 10px;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 255, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Game-changing-note-text2{
+    font-size: 20px;
+    width: calc(100%/2);
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Game-changing-up-to{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    margin-bottom: 0px;
+}
+.Game-changing-up-to-text{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+}
+.Game-changing-faster{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    margin-bottom: 0px;
+}
+.Game-changing-faster-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+}
+.Game-changing-than{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 1px solid white;
+    margin-bottom: 270px;
+}
+.Game-changing-than-text{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+}
+.Hard-ware{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.Hard-ware-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Hard-ware-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+}
+.Hard-ware-heading-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

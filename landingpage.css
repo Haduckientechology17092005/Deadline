@@ -301,7 +301,7 @@ h2{
     padding-top: 114px;
     text-align: center;
     margin-bottom: 100px;
-    border: 1px solid white;
+    border: 0px solid white;
 }
 .Explore-the-full-story-text{
     font-size: 50px;
@@ -315,7 +315,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 50px;
 }
 .Explore-the-heading-text{
@@ -330,7 +330,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 50px;
 }
 .Explore-the-body-text{
@@ -346,7 +346,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -355,7 +355,7 @@ h2{
 .Explore-the-image1{
     width: calc(100%/3);
     height: auto;
-    border: 1px solid white;
+    border: 0px solid white;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -392,7 +392,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 100px;
 }
 .Game-changing-heading-text{
@@ -406,7 +406,7 @@ h2{
 .Game-changing-image{
     height: auto;
     width: 100%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 100px;
 }
 .Game-changing-border{
@@ -449,7 +449,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 0px;
 }
 .Game-changing-up-to-text{
@@ -465,7 +465,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 0px;
 }
 .Game-changing-faster-text{
@@ -481,7 +481,7 @@ h2{
     width: 50%;
     height: auto;
     margin-left: 25%;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-bottom: 270px;
 }
 .Game-changing-than-text{
@@ -517,6 +517,57 @@ h2{
 }
 .Hard-ware-heading-text{
     font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Hard-ware-video-image{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid white;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.Hard-ware-video{
+    position: absolute;
+    z-index: 2;
+    margin-top: 1%;
+    width: 82%;
+    height: 90%;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+video{
+    width: 100%;
+    height: auto;
+}
+.Hard-ware-video:hover{
+    cursor: pointer;
+}
+.Hard-ware-image{
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+.Hard-ware-footer{
+    width: 68%;
+    height: auto;
+    margin-left: 16%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+    text-align: end;
+}
+.Hard-ware-footer-text{
+    font-size: 15px;
     font-weight: bolder;
     color: rgb(172, 172, 172);
     font-family: Arial, Helvetica, sans-serif;

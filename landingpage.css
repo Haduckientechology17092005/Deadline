@@ -271,6 +271,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .image {
     display: none;
@@ -285,7 +286,8 @@ h2{
 .Take{
     width: calc(100%-20px);
     height: 1000px;
-    background-color: white;   
+    background-color: white;  
+    margin-top: 40px;    
 }
 .Explore{
     margin-top: 30px;
@@ -411,9 +413,9 @@ h2{
 }
 .Game-changing-border{
     border: 0.001cm solid rgb(187, 187, 187);
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 60px;s
+    width: 64%;
+    margin-left: 18%;
+    margin-bottom: 100px;
 }
 .Game-changing-note{
     width: 50%;
@@ -532,6 +534,7 @@ h2{
     position: relative;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .Hard-ware-video{
     position: absolute;
@@ -573,4 +576,338 @@ video{
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+.Up-to-o-ver{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.Up-to{
+    width: calc(100%/2 - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid white;
+}
+.o-ver{
+    width: calc(100%/2 - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid white;
+}
+.Up-to-text1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Up-to-text2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Up-to-text3{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.border-after-Up-to{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 400px;
+}
+.We-can-do{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.We-can-do-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.We-can-do-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.We-can-do-heading-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.We-can-do-image-video{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid white;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.We-can-do-video{
+    position: absolute;
+    z-index: 2;
+    margin-top: 1%;
+    width: 82%;
+    height: 90%;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+.We-can-do-video:hover{
+    cursor: pointer;
+}
+.We-can-do-image{
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+.We-can-do-footer{
+    width: 68%;
+    height: auto;
+    margin-left: 16%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+    text-align: end;
+}
+.We-can-do-footer-text{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.We-can-d0-up-to{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.We-can-do-up-to{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.We-can-do-up-to-left{
+    width: calc(100%/2 - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid white;
+}
+.We-can-do-up-to-left-text1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+}
+.We-can-do-up-to-left-text2{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+}
+.Amps-up-apps{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.Amps-up-apps-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Amps-up-apps-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.Amps-up-apps-heading-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+a{
+    text-decoration: none;
+    font-weight: light;
+}
+.Amps-up-apps-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+.A-MacBook-Pro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.A-MacBook-Pro-1{
+    width: 1250px;
+    height: 850px;
+    background-color: rgb(35, 34, 34);
+    border-radius: 50px;
+}
+.A-MacBook-Pro-1-heading{
+    width: 70%;
+    height: auto;
+    border: 0px solid rgb(255, 255, 255);
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 80px;
+}
+.A-MacBook-Pro-1-heading-text{
+    text-align: start;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.A-MacBook-Pro-1-body{
+    width: 70%;
+    height: auto;
+    border: 0px solid rgb(255, 255, 255);
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.A-MacBook-Pro-1-body-1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid rgb(255, 255, 255);
+    height: auto;
+    width: calc(100%/3 - 30px);
+}
+.A-MacBook-Pro-1-body-1-heading{
+    border-bottom: 1px solid rgb(91, 91, 91);
+    margin-bottom: 40px;
+}
+.A-MacBook-Pro-1-body-1-heading-text1{
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.A-MacBook-Pro-1-body-1-heading-text2{
+    text-align: start;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+.MacBook-color{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.MacBook-color-text{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+}
+.M3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.M3-note{
+    width: 90%;
+    height: auto;
+}
+.M3-note-text{
+    text-align: start;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
 }

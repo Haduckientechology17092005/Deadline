@@ -21,66 +21,76 @@ body{
     margin-top: 5px;
     margin-right: 40px;
     margin-bottom: 10px;
-    
+    font-weight: bold;
 }
 .Mac{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-top: 5px;
     margin-right: 40px;
+    font-weight: bold;
 }
 .iPad{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .Watch{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .Vision{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .AirPods{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .TV{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .Entertainment{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;   
     margin-top: 5px;
+    font-weight: bold;
 }
 .Accessories{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .Support{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     margin-right: 40px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .find{
     display: inline block;
     font-size: small; 
     margin-right: 40px;
+    font-weight: bold;
 }
 .cart{
     display: inline block;
@@ -291,11 +301,12 @@ h2{
 }
 .Explore{
     margin-top: 30px;
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: black;
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 .Explore-the-full-story{
     height: auto;
@@ -362,10 +373,11 @@ h2{
     flex-direction: column;
     justify-content: left;
     text-align: left;
+    overflow: hidden;
 }
 .Explore-the-image1-text1{
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(0, 255, 204);
     font-family: Arial, Helvetica, sans-serif;
@@ -374,7 +386,7 @@ h2{
 }
 .Explore-the-image2-text1{
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(0, 195, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -383,7 +395,7 @@ h2{
 }
 .Explore-the-image3-text1{
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(115, 0, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -432,7 +444,7 @@ h2{
     height: auto;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(0, 255, 204);
+    color: rgb(132, 133, 135);
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -442,7 +454,7 @@ h2{
     width: calc(100%/2);
     margin-left: 10px;
     font-weight: bold;
-    color: rgb(0, 195, 255);
+    color: rgb(132, 133, 135);
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -539,9 +551,9 @@ h2{
 .Hard-ware-video{
     position: absolute;
     z-index: 2;
-    margin-top: 1%;
-    width: 82%;
-    height: 90%;
+    margin-top: 5px;
+    width: 950px;
+    height: auto;
     margin-left: 0%;
     border: 0px solid white;
     margin-bottom: 0px;
@@ -552,14 +564,6 @@ video{
 }
 .Hard-ware-video:hover{
     cursor: pointer;
-}
-.Hard-ware-image{
-    z-index: 1;
-    width: 100%;
-    height: auto;
-    margin-left: 0%;
-    border: 0px solid white;
-    margin-bottom: 0px;
 }
 .Hard-ware-footer{
     width: 68%;
@@ -665,9 +669,9 @@ video{
     overflow-wrap: break-word;
 }
 .We-can-do-image-video{
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-left: 10%;
+    margin-left: 0%;
     border: 0px solid white;
     margin-bottom: 5px;
     position: relative;
@@ -678,9 +682,9 @@ video{
 .We-can-do-video{
     position: absolute;
     z-index: 2;
-    margin-top: 1%;
-    width: 82%;
-    height: 90%;
+    margin-top: 5px;
+    width: 950px;
+    height: auto;
     margin-left: 0%;
     border: 0px solid white;
     margin-bottom: 0px;
@@ -798,6 +802,7 @@ a{
     margin-bottom: 200px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .A-MacBook-Pro{
     width: 100%;
@@ -805,6 +810,7 @@ a{
     display: flex;
     justify-content: center;
     margin-bottom: 200px;
+    overflow: hidden;
 }
 .A-MacBook-Pro-1{
     width: 1250px;
@@ -903,11 +909,334 @@ a{
 .M3-note-text{
     text-align: start;
     margin-top: 50px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(133, 133, 133, 0.8);
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
     margin-bottom: 50px;
+}
+.The-best-display{
+    width: 50%;
+    margin-left: 25%;
+    height:auto;
+    margin-bottom: 50px;
+}
+.The-best-display-text{
+    text-align: start;
+    font-size: 64px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+    line-height: auto;
+}
+.The-best-display-video{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px ;
+    overflow: hidden;
+}
+.The-best-display-video-detail{
+    overflow: hidden;
+    width: 2500px;
+    height: auto;
+}
+.The-best-display-video-detail:hover {
+    cursor: pointer;
+}
+.The-best-display-note{
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border: 0px solid black;
+}
+.The-best-display-note-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(68, 68, 68, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 100px;
+}
+.The-best-display-video1{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px ;
+    overflow: hidden;
+}
+.The-best-display-video1-note{
+    width: 900px;
+    height: auto;
+}
+.The-best-display-note1{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 250px;
+}
+.The-best-display-note1-border{
+    width: calc(100%/3 -10px);
+    height: auto;
+}
+.The-best-display-note1-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.The-best-display-border{
+    width: 100%;
+    margin-bottom: 300px;
+    border-bottom: 1px solid black;
+}
+.The-crisp-clear-commanding{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 100px;
+}
+.The-crisp-clear-commanding-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.The-crisp-note{
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.The-crisp-note-image{
+    object-fit: contain;
+    width: 700px;
+    height: auto;
+    margin-left: 10%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.The-crisp-border{
+    width: calc(100%/2 - 10px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.The-crisp-border-note{
+    width: 100%;
+    height: auto;
+    text-align: start;
+}
+.The-crisp-border-note-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 50px;
+}
+.All-the-right-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-text-body{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-footer{
+    margin-top: 100px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.All-the-right-footer-border{
+    width: calc(100%/2 - 60px);
+    border: 0px solid black;
+    margin-bottom: 200px;
+}
+.All-the-right-footer-border-text1{
+    text-align: start;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-footer-border-text2{
+    text-align: start;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-footer-border-text3{
+    text-align: start;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Security{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 50px;
+}
+.Security-heading{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 100px;
+}
+.Security-image{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.Significant-others{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid black;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.Significant-others-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Significant-others-body{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+.Why-Apple{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    background-color: #f5f5f5 ;
+    margin-bottom: 50px;
+}
+.Why-Apple-heading{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.Why-Apple-heading-left{
+    width: calc(100%/2);
+    height: auto;
+    border: 0px solid black;
+}
+.Why-Apple-heading-left-text{
+    text-align: start;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Why-Apple-heading-right{
+    width: calc(100%/2);
+    height: auto;
+    border: 0px solid black;
+}
+.Why-Apple-heading-right-text{
+    text-align: end;
+    margin-top: 160px;
+    font-size: 25px;
+    font-weight: normal;
+    color: rgb(0, 55, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

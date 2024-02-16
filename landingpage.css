@@ -1011,7 +1011,7 @@ a{
 .The-best-display-border{
     width: 100%;
     margin-bottom: 300px;
-    border-bottom: 1px solid black;
+    border-bottom: 0px solid black;
 }
 .The-crisp-clear-commanding{
     width: 60%;
@@ -1031,29 +1031,30 @@ a{
     overflow-wrap: break-word;
 }
 .The-crisp-note{
-    width: 60%;
-    margin-left: 20%;
+    width: 90%;
+    margin-left: 0%;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     overflow-x: hidden;
+    flex-wrap: nowrap;
 }
 .The-crisp-note-image{
-    object-fit: contain;
-    width: 700px;
-    height: auto;
-    margin-left: 10%;
+    max-width: 50%;
+    max-height: 50%;
     overflow: hidden;
-    white-space: nowrap;
+    object-fit: cover;
+    object-position: right;
 }
 .The-crisp-border{
-    width: calc(100%/2 - 10px);
+    width: calc(100%/2 - 20px);
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    margin-left: 20px;
 }
 .The-crisp-border-note{
     width: 100%;
@@ -1232,11 +1233,210 @@ a{
 }
 .Why-Apple-heading-right-text{
     text-align: end;
-    margin-top: 160px;
-    font-size: 25px;
+    margin-top: 165px;
+    font-size: 20px;
     font-weight: normal;
     color: rgb(0, 55, 255);
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+.Why-Apple-heading-right-text:hover{
+    text-decoration: underline;
+}
+.Compare-MacBook{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid black;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.Compare-MacBook-text-left{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-text-right{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(0, 55, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-text-right:hover{
+    text-decoration: underline;  
+}
+.Compare-MacBook-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.Compare-MacBook-image1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0px solid black;
+}
+.Compare-MacBook-left-right{
+    width: calc(100%/2);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid black;
+}
+.Compare-MacBook-body1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 0px solid black;
+}
+.Compare-MacBook-body2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.Compare-MacBook-body2-note{
+    width: 150px;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.Compare-MacBook-body2-note-button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.Compare-MacBook-new{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border: 0px solid black;
+}
+.Compare-MacBook-new-text{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(111, 68, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text2{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.Compare-MacBook-footer-text{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(128, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-footer-text1{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-footer-text1:hover{
+    text-decoration: underline;
+    color: #007BFF;
+}
+.Compare-MacBook-footer-border{
+    width: 120px;
+    height: 20px;
+    background-color: #007BFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Compare-MacBook-footer-text2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.border-compare{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.border-compare1{
+    border: 1px solid rgb(210, 210, 210);
+    width: 700px;
 }

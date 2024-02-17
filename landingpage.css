@@ -1434,9 +1434,175 @@ a{
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .border-compare1{
-    border: 1px solid rgb(210, 210, 210);
+    border: 0px solid rgb(210, 210, 210);
     width: 700px;
+}
+.Compare-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.Compare-footer-details{
+    width: 700px;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Compare-footer-details-left-right{
+    width: calc(100%/2 - 0px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid black;
+}
+.Compare-footer-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.Compare-footer-body1{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    text-align: center;
+}
+.Compare-footer-body1-text{
+    font-size: 12px;
+    font-weight: light;
+    color: rgb(139, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: 0px solid black;
+    width: 100%;
+    height: auto;
+}
+.Compare-footer-body1-text1{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-background{
+    width: 100%;
+    height: auto;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: left; 
+}
+.Mac1{
+    margin-top: 80px;
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border: 0px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+.Mac1-heading{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    margin-bottom: 100px;
+}
+.Mac1-heading-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.Mac1-body1{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    margin-right: 40px;
+}
+.Mac1-body1-text{
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(139, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body1-text1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body1-text2{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body2{
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 0px solid black;
+    margin-right: 40px;
+}
+.page-footer-background{
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: center;
+}
+.page-footer{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: start;
+}
+.page-footer-text{
+    text-align: left;
+    font-size: 12.7px;
+    font-weight: normal;
+    color: rgb(183, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

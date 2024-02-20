@@ -2,18 +2,24 @@ body{
     position: relative;
 }
 .header {
+    position: static;
+    top: 0;
     height: auto;
     width: auto;
     flex-direction: row;
     justify-content: center;
     display: flex;
-    margin: 10px;
     overflow: hidden;
+    z-index: 1000;
+    flex-wrap: nowrap;
 }
 .Apple {
     display: inline block;
     font-size: small; 
     margin-right: 40px;
+    z-index: 12;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Store{
     font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +28,8 @@ body{
     margin-right: 40px;
     margin-bottom: 10px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Mac{
     font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +37,8 @@ body{
     margin-top: 5px;
     margin-right: 40px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .iPad{
     font-family: Arial, Helvetica, sans-serif;
@@ -36,6 +46,8 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Watch{
     font-family: Arial, Helvetica, sans-serif;
@@ -43,6 +55,8 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Vision{
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +64,8 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .AirPods{
     font-family: Arial, Helvetica, sans-serif;
@@ -57,6 +73,8 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .TV{
     font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +82,8 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Entertainment{
     font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +91,8 @@ body{
     margin-right: 40px;   
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Accessories{
     font-family: Arial, Helvetica, sans-serif;
@@ -78,6 +100,8 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .Support{
     font-family: Arial, Helvetica, sans-serif;
@@ -85,16 +109,22 @@ body{
     margin-right: 40px;
     margin-top: 5px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .find{
     display: inline block;
     font-size: small; 
     margin-right: 40px;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .cart{
     display: inline block;
     font-size: small; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .myTable {
     position: absolute;
@@ -103,7 +133,7 @@ body{
     width: 100%;
     height: 50vh;
     background-color: whitesmoke;
-    z-index: 1;
+    z-index: 12;
     margin-top: 10px;
   }
 .Store:hover .myTable{
@@ -155,7 +185,16 @@ body{
     margin: 10px;
 }
 .main{
+    position: relative;
     display: block;
+}
+.border-width{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.118);
+    top: 0px;
+    z-index: 3;
 }
 .section-welcome{
     position: relative;
@@ -510,10 +549,117 @@ h2{
     overflow-wrap: break-word;   
 }
 .Game-changing-image{
-    height: auto;
+    height: 1000px;
     width: 100%;
     border: 0px solid white;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    position: relative;
+    animation: fadeIn 15s ;
+}
+.Game-changing-image-border{
+    position: relative;
+    width:  1600px;
+    height: auto;
+    border: 0px solid white;
+    display: inline-block;
+    overflow: hidden;
+}
+.Game-changing-image-main{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 1;
+    top: 400px;
+    left: 400px;
+    background-size: cover; 
+}
+.Game-changing-image1{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 2;
+    top: 60px;
+    left: 100px;
+    background-size: cover; 
+    object-fit: contain;
+    transform: scale(1);
+}
+.Game-changing-image2{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 2;
+    top: 0px;
+    left: 600px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image3{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 3;
+    top: -200px;
+    left: 750px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image4{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 4;
+    top: 350px;
+    left: -100px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image5{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 4;
+    top: 350px;
+    left: 800px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image6{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 3;
+    top: 500px;
+    left: -500px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image7{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 3;
+    top: 500px;
+    left: 900px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
 }
 .Game-changing-border{
     border: 0.001cm solid rgb(187, 187, 187);
@@ -529,6 +675,7 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    animation: fadeIn 10s;
 }
 .Game-changing-note-text1{
     width: calc(100%/2);
@@ -557,6 +704,7 @@ h2{
     margin-left: 25%;
     border: 0px solid white;
     margin-bottom: 0px;
+    animation: fadeIn 5s;
 }
 .Game-changing-up-to-text{
     font-size: 25px;
@@ -573,6 +721,8 @@ h2{
     margin-left: 25%;
     border: 0px solid white;
     margin-bottom: 0px;
+    animation: fadeIn 10s;
+
 }
 .Game-changing-faster-text{
     font-size: 40px;
@@ -589,6 +739,8 @@ h2{
     margin-left: 25%;
     border: 0px solid white;
     margin-bottom: 270px;
+    animation: fadeIn 10s;
+
 }
 .Game-changing-than-text{
     font-size: 25px;
@@ -605,6 +757,7 @@ h2{
     margin-left: 25%;
     border: 0px solid white;
     margin-bottom: 80px;
+    animation: fadeIn 10s;
 }
 .Hard-ware-text{
     font-size: 60px;
@@ -620,6 +773,7 @@ h2{
     margin-left: 25%;
     border: 0px solid white;
     margin-bottom: 50px;
+    animation: fadeIn 10s;
 }
 .Hard-ware-heading-text{
     font-size: 20px;
@@ -639,6 +793,7 @@ h2{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    animation: fadeIn 10s;
 }
 .Hard-ware-video{
     position: absolute;
@@ -854,6 +1009,11 @@ video{
     overflow-wrap: break-word;
     margin-bottom: 5px;
 }
+.Amps-up{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .Amps-up-apps{
     width: 50%;
     height: auto;
@@ -891,10 +1051,65 @@ a{
 .Amps-up-apps-image{
     width: 100%;
     height: auto;
-    margin-bottom: 200px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     overflow: hidden;
+}
+.Amps-up-apps-khung{
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Amps-up-apps-note{
+    position: absolute;
+    z-index: 2;
+    width: 900px;
+    height: auto;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Amps-up-apps-details{
+    position: static;
+    width: calc(100%/4 - 10px);
+    height: auto;
+    text-align: center;
+    border: 0px solid white;
+}
+.Amps-up-apps-text1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Table{
+    overflow: hidden;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 150px;
+}
+.Table-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.Amps-up-apps-details:hover .Table{
+    display: block;
 }
 .A-MacBook-Pro{
     width: 100%;
@@ -1137,7 +1352,7 @@ a{
     max-width: 50%;
     max-height: 50%;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: contain;
     object-position: right;
 }
 .The-crisp-border{

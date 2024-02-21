@@ -1762,6 +1762,7 @@ a{
     justify-content: center;
     border: 0px solid black;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 .Why-border-in{
     width: 1200px;
@@ -1770,6 +1771,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     border: 0px solid rgb(0, 0, 0);
+    overflow: hidden;
+    flex-wrap: nowrap;
 }
 .Why-box{
     width: 300px;

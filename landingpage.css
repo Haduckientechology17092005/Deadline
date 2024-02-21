@@ -1368,19 +1368,19 @@ a{
     overflow: hidden;
     object-fit: contain;
     object-position: right;
+    margin-right: 50px;
 }
 .The-crisp-border{
     width: calc(100%/2 - 20px);
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-around;
     margin-left: 20px;
 }
 .The-crisp-border-note{
     width: 100%;
     height: auto;
-    text-align: start;
 }
 .The-crisp-border-note-text{
     text-align: start;
@@ -1391,6 +1391,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    animation: fadeIn 4s;
 }
 .All-the-right{
     width: 60%;
@@ -1408,6 +1409,83 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    animation: fadeIn 4s;
+}
+.All-the-right-image{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+.All-the-right-image-top{
+    width: 3000px;
+    height: 160px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: right;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    object-fit: contain;
+    margin-bottom: 50px;
+    object-fit: cover;
+    object-position: right;
+    position: relative;
+}
+.image-top{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 600px;
+    animation: dc1 3s;
+}
+@keyframes dc1 {
+    0% {
+        right: 400px;
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: blue;
+    }
+    100% {
+        right: 600px;
+        background-color: white;
+    }
+}
+.All-the-right-image-bottom{
+    width: 3000px;
+    height: 160px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: left;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    object-fit: contain;
+    object-fit: cover;
+    object-position: left;
+    position: relative;
+}
+.image-bottom{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left:-900px;
+    animation: dc2 3s;
+}
+@keyframes dc2 {
+    0% {
+        left: -1100px;
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: blue;
+    }
+    100% {
+        left: -900px;
+        background-color: white;
+    }
+    
 }
 .All-the-right-text-body{
     text-align: start;
@@ -1418,6 +1496,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    animation: fadeIn 4s;
 }
 .All-the-right-footer{
     margin-top: 100px;
@@ -1429,6 +1508,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    animation: fadeIn 4s;
 }
 .All-the-right-footer-border{
     width: calc(100%/2 - 60px);

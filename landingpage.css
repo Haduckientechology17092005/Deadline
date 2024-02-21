@@ -1711,6 +1711,7 @@ a{
     background-color: #f5f5f5 ;
     margin-bottom: 50px;
     overflow: hidden;
+    display: block;
 }
 .Why-Apple-heading{
     width: 80%;
@@ -1753,6 +1754,28 @@ a{
 }
 .Why-Apple-heading-right-text:hover{
     text-decoration: underline;
+}
+.Why-border{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    margin-bottom: 100px;
+}
+.Why-border-in{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid rgb(0, 0, 0);
+}
+.Why-box{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: white;
 }
 .Compare-MacBook{
     width: 80%;

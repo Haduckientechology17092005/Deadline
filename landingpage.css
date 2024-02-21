@@ -1,1065 +1,2041 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landingpage</title>
-    <link rel="stylesheet" href="landingpage.css">
-</head>
-<body>
-    <div class="header">
-        <div class="Apple">
-            <img src="https://www.clipartbest.com/cliparts/9T4/b5K/9T4b5K8rc.png" alt="error!" width="15px" height="20px">
-        </div>
-        <div class="Store">Store
-            <div class="myTable">      
-            </div>
-        </div>
-        <div class="Mac">Mac
-            <div class="myTable"></div>
-        </div>
-        <div class="iPad">iPad
-            <div class="myTable"></div>
-        </div>
-        <div class="Watch">Watch
-            <div class="myTable"></div>
-        </div>
-        <div class="Vision">Vision
-            <div class="myTable"></div>
-        </div>
-        <div class="AirPods">AirPods
-            <div class="myTable"></div>
-        </div>
-        <div class="TV">TV & Home
-            <div class="myTable"></div>
-        </div>
-        <div class="Entertainment">Entertainment
-            <div class="myTable"></div>
-        </div>
-        <div class="Accessories">Accessories
-            <div class="myTable"></div>
-        </div>
-        <div class="Support">Support
-            <div class="myTable"></div>
-        </div>
-        <label class="find" tabindex="0">
-            <img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/256/search-icon.png" alt="error!" height="20" width="15px">
-            <div class="myTable"></div>
-        </label>
-        <div class="cart" tabindex="0">
-            <img src="https://th.bing.com/th/id/OIP.Lix_itxEcWuc79sXV_g-QgHaHa?rs=1&pid=ImgDetMain" alt="error!" height="20px" width="15px">
-            <div class="myTable"></div>
-        </div>
-    </div>
-    <div class="box"></div>
-    <div class="main">
-        <div class="section-welcome">
-            <div class="section-content">
-                <div class="welcome">
-                    <h1 class="">MacBook Pro</h1>
-                    <h2 class="">
-                        Mind-blowing.
-                        <br>
-                        Head-turning.
-                    </h2>
-                </div>
-                <div class="welcome-video">
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/welcome/welcome_hero_endframe__66ipqm3o5gyu_large.jpg" alt="error" width="2200px" height="auto">
-                </div>
-                <div class="welcome-lockup">
-                    <div class="box2">
-                        <a href="https://www.facebook.com/" class="Buy" style="text-decoration: none;">Buy</a>
-                    </div>
-                    <div class="text">From $1599 or $133.25/mo. for 12 mo.*</div>
-                </div>
-            </div>
+body{
+    position: relative;
+}
+.header {
+    position: static;
+    top: 0;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    z-index: 1000;
+    flex-wrap: nowrap;
+}
+.Apple {
+    display: inline block;
+    font-size: small; 
+    margin-right: 40px;
+    z-index: 12;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Store{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 5px;
+    margin-right: 40px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.iPad{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Watch{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Vision{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.AirPods{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.TV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Entertainment{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;   
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Accessories{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Support{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.find{
+    display: inline block;
+    font-size: small; 
+    margin-right: 40px;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.cart{
+    display: inline block;
+    font-size: small; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.myTable {
+    position: absolute;
+    left: 0%;
+    display: none;
+    width: 100%;
+    height: 50vh;
+    background-color: whitesmoke;
+    z-index: 12;
+    margin-top: 10px;
+  }
+.Store:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.Mac:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.iPad:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.Watch:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.Vision:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.AirPods:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.TV:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.Entertainment:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.Accessories:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.Support:hover .myTable{
+    display: block;
+    cursor: pointer;
+}
+.find:focus .myTable{
+    display: block;
+    cursor: pointer;
+}
+.find:focus-within .myTable{
+    display: block;
+    cursor: pointer;
+}
+.cart:focus .myTable{
+    display: block;
+    cursor: pointer;
+}
+.cart:focus-within .myTable{
+    display: block;
+    cursor: pointer;
+}
+.box{
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.main{
+    position: relative;
+    display: block;
+}
+.border-width{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.118);
+    top: 0px;
+    z-index: 3;
+}
+.section-welcome{
+    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 90px;
+}
+.section-content{
+    position: relative;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: auto;
+}
+.welcome{
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 7vh;
+}
+.welcome-video{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.welcome-lockup{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.box2{
+    width: 100px;
+    height:50px;
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+.Buy{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box2:hover {
+    background-color: rgb(0, 136, 255);
+}
+.text{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Get-the-highlights{
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.get-the-highlight{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            width: calc(100%-20px);
+            height: auto;
+            margin-bottom: 100px;
+ 
+}
+.text-highlight-left {
+    text-align: start;
+    position: absolute;
+    font-size: 2.5em;
+    color: black;
+    margin-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.text-highlight-right{
+    text-align: end;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 
+}
+.a{
+    color: #007BFF;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.get-the-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.image-container{
+    width: 1000px;
+    height: auto;
+}
+.button-image{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    animation: fadeIn 10s;
+    margin-bottom: 70px;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.button-image-left{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button-image-left-tron{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(194, 195, 195);
+}
+.button-image-right{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.Take{
+    width: calc(100%);
+    height: auto;
+    background-color: white;  
+    margin-top: 40px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-self: center; 
+}
+.button-note{
+    border: 0px solid black;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin-top: 30px; 
+}
+.button-note-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    color: black;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.button-take{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    animation: fadeIn 10s;
+    margin-bottom: 70px;
+}
+.button-border{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Explore{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.Explore-the-full-story{
+    height: auto;
+    width: 60%;
+    padding-top: 114px;
+    text-align: center;
+    margin-bottom: 100px;
+    border: 0px solid white;
+}
+.Explore-the-full-story-text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;  
+}
+.Explore-the-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+}
+.Explore-the-heading-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;      
+}
+.Explore-the-body{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+}
+.Explore-the-body-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    word-wrap: break-word;
+    overflow-wrap: break-word;      
+}
+.Explore-the-image{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 250px;
+}
+.Explore-the-image1{
+    width: calc(100%/3);
+    height: auto;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    overflow: hidden;
+}
+.Explore-the-image1-text1{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 255, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Explore-the-image2-text1{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Explore-the-image3-text1{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(115, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Game-changing-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.Game-changing-heading-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;   
+}
+.Game-changing-image{
+    height: 1000px;
+    width: 100%;
+    border: 0px solid white;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    position: relative;
+    animation: fadeIn 15s ;
+}
+.Game-changing-image-border{
+    position: relative;
+    width:  1600px;
+    height: auto;
+    border: 0px solid white;
+    display: inline-block;
+    overflow: hidden;
+}
+.Game-changing-image-main{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 1;
+    top: 400px;
+    left: 400px;
+    background-size: cover; 
+}
+.Game-changing-image1{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 2;
+    top: 60px;
+    left: 100px;
+    background-size: cover; 
+    object-fit: contain;
+    transform: scale(1);
+}
+.Game-changing-image2{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 2;
+    top: 0px;
+    left: 600px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image3{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 3;
+    top: -200px;
+    left: 750px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image4{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 4;
+    top: 350px;
+    left: -100px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image5{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 4;
+    top: 350px;
+    left: 800px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image6{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 3;
+    top: 500px;
+    left: -500px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-image7{
+    position: absolute;
+    width:  auto;
+    height: auto;
+    border: 0px solid white;
+    z-index: 3;
+    top: 500px;
+    left: 900px;
+    background-size: cover;
+    object-fit: contain;
+    transform: scale(0.5);
+}
+.Game-changing-border{
+    border: 0.001cm solid rgb(187, 187, 187);
+    width: 64%;
+    margin-left: 18%;
+    margin-bottom: 100px;
+}
+.Game-changing-note{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation: fadeIn 10s;
+}
+.Game-changing-note-text1{
+    width: calc(100%/2);
+    margin-right: 10px;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 133, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Game-changing-note-text2{
+    font-size: 20px;
+    width: calc(100%/2);
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(132, 133, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Game-changing-up-to{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+    animation: fadeIn 5s;
+}
+.Game-changing-up-to-text{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+}
+.Game-changing-faster{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+    animation: fadeIn 10s;
 
-        </div>        
-        <!--<div class="border-width">haha</div> --> 
-     <div class="Get-the-highlights">
-        <div class="get-the-highlight">
-            <span class="text-highlight-left">Get the highlights.</span>
-            <span class="text-highlight-right">
-                <a href="http://www.facebook.com" class="a" style="text-decoration: none;">Watch the TV</a>
-                <a href="http://www.facebook.com" class="a" style="text-decoration: none;">Watch the event</a>
-            </span>
-        </div>
-        <div class="get-the-image">
-            <div class="image-container">
-                <video controls>
-                    <source src="https://www.apple.com/105/media/us/macbook-pro/2023/232a2dbf-5898-4fd1-a350-6a7c5c2e31c9/anim/highlights-chips/large_2x.mp4" type="video/mp4">
-                </video>  
-        </div>
-        </div>
-        <div class="button-image">
-            <div class="button-image-left">
-                <div class="button-image-left-tron"></div>
-                <div class="button-image-left-tron"></div>
-                <div class="button-image-left-tron"></div>
-                <div class="button-image-left-tron"></div>
-                <div class="button-image-left-tron"></div>
-                <div></div>
-            </div>
-            <div class="button-image-right">
-                <img src="https://cdn-icons-png.freepik.com/512/4460/4460651.png" alt="1" style="height: 30px; width:30px;">
-            </div>
-        </div>
-        </div>
-        <div class="Take">
-            <div class="get-the-highlight">
-                <span class="text-highlight-left">Take a closer look.</span>
-            </div>
-            <div class="get-the-image">
-                <div id="image-container">  
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/closer-look/3d_viewer_pf_16__b8iq7yl5sewi_large.jpg" alt="1" width="1000px" height="auto">
-            </div>
-        </div>
-            <div class="button-note">
-                <div class="button-note-text">
-                    MacBook Pro 16” in Space Black
-                </div>
-            </div>
-            <div class="button-take">
-                <div class="button-border">
-                    <div style="color: rgb(134,134,134); font-weight:bolder; font-size:larger; margin-left: 5px;"> < </div>
-                    <div class="button-image-left-tron"></div>
-                    <div class="button-image-left-tron"></div>
-                    <div class="button-image-left-tron"></div>
-                    <div class="button-image-left-tron"></div>
-                    <div class="button-image-left-tron"></div>
-                    <div class="button-image-left-tron"></div>
-                    <div style="color: rgb(134, 134, 134); font-weight:bolder; font-size:larger; margin-right: 5px;"> > </div>
-                </div>
-            </div>
-        </div>
-        <div class="Explore">
-            <div class="Explore-the-full-story">
-                <span class="Explore-the-full-story-text">
-                    Explore the full story.
-                </span>
-            </div> 
-            <div class="Explore-the-heading">
-                <div class="Explore-the-heading-text">
-                    Three giant leaps.
-                </div>
-            </div>
-            <div class="Explore-the-body">
-                <div class="Explore-the-body-text">
-                    MacBook Pro blasts forward with the M3, M3 Pro, and M3 Max chips. <br>
-                    Built on 3‑nanometer technology and featuring an all-new GPU <br>
-                    architecture, they’re the most advanced chips ever built for a personal <br>
-                    computer. And each one brings more pro performance and capability.
-                </div>
-            </div>
-            <div class="Explore-the-image">
-                <div class="Explore-the-image1">
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/mx__7nkrkdxhdzma_large_2x.jpg" alt="error!" width="150px" height="auto">
-                    <div class="Explore-the-image1-text1">8-core <br>CPU</div>
-                    <div class="Explore-the-image1-text1">10-core
-                        <br>GPU</div>
-                    <div class="Explore-the-image1-text1">Up to 24GB <br>
-                        unified memory</div>
-                </div>
-                <div class="Explore-the-image1">
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/mx_pro__4183istr5f6u_large_2x.jpg" alt="error!" width="150px" height="auto">
-                    <div class="Explore-the-image2-text1">Up to <br>
-                        12-core CPU</div>
-                    <div class="Explore-the-image2-text1">Up to <br>
-                        18-core GPU</div>
-                    <div class="Explore-the-image2-text1">Up to 36GB <br>
-                        unified memory</div>
-                </div>
-                <div class="Explore-the-image1">
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/mx_max__fbgblbhbf6ai_large_2x.jpg" alt="error!" width="150px" height="auto">
-                    <div class="Explore-the-image3-text1">Up to <br>
-                        16-core CPU</div>
-                    <div class="Explore-the-image3-text1">Up to <br>
-                        40-core GPU</div>
-                    <div class="Explore-the-image3-text1">Up to 128GB <br>
-                        unified memory</div>
-                </div>
-            </div>
-            <div class="Game-changing-heading">
-                <div class="Game-changing-heading-text">
-                    Game-changing <br> graphics performance.
-                </div>
-            </div>
-            <div class="Game-changing-image">
-                <div class="Game-changing-image-border">
-                    <div class="Game-changing-image-main">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_hw__cnfchyuncvyq_large.jpg" alt="1">
-                    </div>
-                    <div class="Game-changing-image1">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_vfx__fuih4qnrfzqu_large.png" alt="1">
-                    </div>
-                    <div class="Game-changing-image2">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_keynote__egc30p8vup4y_large_2x.png" alt="1">
-                    </div>
-                    <div class="Game-changing-image3">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_davinci__glp3kgao746e_large_2x.png" alt="1">
-                    </div>
-                    <div class="Game-changing-image4">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_maya__ckbkyvr4snte_large_2x.png" alt="1">
-                    </div>
-                    <div class="Game-changing-image5">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_photoshop__glgzm3fsu3qu_large_2x.png" alt="1">
-                    </div>
-                    <div class="Game-changing-image6">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_houdini__co78thvg7cwi_large_2x.png" alt="1">
-                    </div>
-                    <div class="Game-changing-image7">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/performance_screen_sketchup__gllzwsg4bc2m_large_2x.png" alt="1">
-                    </div>
-                </div>
-            </div>
-            <div class="Game-changing-border"></div>
-            <div class="Game-changing-note">
-                <div class="Game-changing-note-text1">
-                    Behold an entirely new class of <br>
-                    GPU architecture. And the biggest <br> 
-                    breakthrough in graphics yet for <br> 
-                    Apple silicon. Dynamic Caching <br> 
-                    optimizes fast on-chip memory to <br> 
-                    dramatically increase average <br> 
-                    GPU utilization — driving a huge <br> 
-                    performance boost for the most <br> 
-                    demanding pro apps and games.
-                </div>
-                <div class="Game-changing-note-text2">
-                    Games will look more detailed <br>
-                    than ever thanks to hardware- <br>
-                    accelerated mesh shading. This <br>
-                    brings greater capability and <br>
-                    efficiency to geometry processing, <br>
-                    enabling games to render more <br>
-                    visually complex scenes. <br>
-                </div>
-            </div>
-            <div class="Game-changing-up-to">
-                <div class="Game-changing-up-to-text">Up to</div>
-            </div>
-            <div class="Game-changing-faster">
-                <div class="Game-changing-faster-text">
-                    2.5x faster <br> 
-                    rendering
-                </div>
-            </div>
-            <div class="Game-changing-than">
-                <div class="Game-changing-than-text">
-                    than 16‑inch MacBook Pro with <br>
-                    M1 Max3
-                </div>
-            </div>
-            <div class="Hard-ware">
-                <div class="Hard-ware-text">
-                    Hardware-accelerated <br>
-                    ray tracing.
-                </div>
-            </div>
-            <div class="Hard-ware-heading">
-                <div class="Hard-ware-heading-text">
-                    For the first time, MacBook Pro features hardware-accelerated ray <br>
-                    tracing. Combined with the new graphics architecture, it enables pro <br>
-                    apps to deliver up to two and a half times faster rendering <br>
-                    performance and allows games to provide more realistic shadows <br>
-                    and reflections.
-                </div>
-            </div>
-            <div class="Hard-ware-video-image">
-                <span class="Hard-ware-image">
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/shared/mbp_16_hw__cqlhn5ys0o9y_large.jpg" alt="">
-                </span>
-                <span class="Hard-ware-video">
-                    <video controls>
-                        <source src="https://www.apple.com/105/media/us/macbook-pro/2023/232a2dbf-5898-4fd1-a350-6a7c5c2e31c9/anim/story-ray-tracing/large_2x.mp4" type="video/mp4">
-                    </video>
-                </span>
-            </div>
-            <div class="Hard-ware-footer">
-                <div class="Hard-ware-footer-text">
-                    Mason Cinema 4D
-                </div>
-            </div>
-            <div class="Game-changing-border"></div>
-            <div class="Up-to-o-ver">
-                <div class="Up-to">
-                    <div class="Up-to-text1">Up to</div>
-                    <div class="Up-to-text2">
-                        80% faster <br> 
-                        CPU
-                    </div>
-                    <div class="Up-to-text3">
-                        multithreaded performance than <br>
-                        16‑inch MacBook Pro with <br>
-                        M1 Max4
-                        <br> <br> <br> <br>
-                    </div>
-                    <div class="Up-to-text3">
-                        Next-generation CPU cores drive <br>
-                        a super responsive experience <br>
-                        while maintaining incredible <br>
-                        power efficiency.
-                    </div>
-                </div>
-                <div class="o-ver">
-                    <div class="Up-to-text1">Over</div>
-                    <div class="Up-to-text2">
-                        18 trillion <br>
-                        operations
-                    </div>
-                    <div class="Up-to-text3">
-                        per second
-                        <br> <br> <br> <br>
-                    </div>
-                    <div class="Up-to-text3">
-                        An enhanced 16-core <br>
-                        Neural Engine accelerates popular <br>
-                        machine learning models. Image <br>
-                        processing tools like DeNoise AI <br>
-                        and Gigapixel AI from Topaz get <br>
-                        even faster.
-                    </div>
-                </div>
-            </div>
-            <div class="Game-changing-border"></div>
-            <div></div>
-            <div class="border-after-Up-to"></div>
-            <div class="We-can-do">
-                <div class="We-can-do-text">
-                    We can do this all day.
-                </div>
-            </div>
-            <div class="We-can-do-heading">
-                <div class="We-can-do-heading-text">
-                    MacBook Pro has the longest battery life ever in a Mac — up to <br>
-                    22 hours. That efficiency is the magic of Apple silicon. And all models <br>
-                    remain just as fast whether plugged in or not. So wherever inspiration <br>
-                    strikes or whenever duty calls, run with it.
-                </div>
-            </div>
-            <div class="We-can-do-image-video">
-                <span class="We-can-image">
-                    <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/shared/mbp_16_hw__cqlhn5ys0o9y_large.jpg" alt="">
-                </span>
-                <span class="We-can-do-video">
-                    <video controls>
-                        <source src="https://www.apple.com/105/media/us/macbook-pro/2023/232a2dbf-5898-4fd1-a350-6a7c5c2e31c9/anim/story-battery-life/large_2x.mp4" type="video/mp4">
-                    </video>
-                </span>
-            </div>
-            <div class="We-can-do-footer">
-                <div class="We-can-do-footer-text">
-                    Adobe Premiere Pro
-                </div>
-            </div>
-            <div class="We-can-do-up-to">
-                <div class="We-can-do-up-to-left">
-                    <div class="We-can-do-up-to-left-text1">Up to</div>
-                    <div class="We-can-do-up-to-left-text2">22 hrs</div>
-                    <div class="We-can-do-up-to-left-text1">video playback1</div>
-                </div>
-                <div class="We-can-do-up-to-left">
-                    <div class="We-can-do-up-to-left-text1">Up to</div>
-                    <div class="We-can-do-up-to-left-text2">15 hrs</div>
-                    <div class="We-can-do-up-to-left-text1">wireless web browsing1</div>
-                </div>
-            </div>
-            <div class="Amps-up">
-            <div class="Amps-up-apps">
-                <div class="Amps-up-apps-text">
-                    Amps up apps.
-                </div>
-            </div>
-            <div class="Amps-up-apps-heading">
-                <div class="Amps-up-apps-heading-text">
-                    With thousands of apps optimized to unlock the full power of <br>
-                    macOS and Apple silicon, M3 chips accelerate performance like <br>
-                    never before. Now apps just soar — from your go-to productivity <br>
-                    apps to your favorite games and hardest-working pro apps. <br>
-                    <br>
-                    <a href="http://www.facebook.com" style="color: rgb(69, 162, 255);" style="font-size: x-large;" style="font-family: Arial, Helvetica, sans-serif;" style="font-weight: 100;">Learn more about macOs</a>
-                </div>
-            </div>
-            <div class="Amps-up-apps-image">
-                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/pro_apps_software_development__b72dk94g8k4i_large.jpg" alt="error!">
-            </div>
-            <div class="Amps-up-apps-khung">
-                <div class="Amps-up-apps-note">
-                    <div class="Amps-up-apps-details">
-                        <div class="Amps-up-apps-text1" style="text-align: start;">
-                            Software development
-                        </div>
-                    </div>
-                    <div class="Amps-up-apps-details">
-                        <div class="Amps-up-apps-text1">
-                            Photo editing
-                        </div>
-                    </div>
-                    <div class="Amps-up-apps-details">
-                        <div class="Amps-up-apps-text1">
-                            STEM
-                        </div>
-                    </div>
-                    <div class="Amps-up-apps-details">
-                        <div class="Amps-up-apps-text1">
-                            Graphic design
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="Table">
-                <div class="Table-text" style="color: aliceblue;">
-                    Xcode, Unity Editor, Create ML, TensorFlow, PyTorch, <br>
-                    NAG Fortran Compiler, Docker, IntelliJ, and more.
-                </div>
-            </div>
-        </div>
-            <div class="A-MacBook-Pro">
-                <div class="A-MacBook-Pro-1">
-                    <div class="A-MacBook-Pro-1-heading">
-                        <div class="A-MacBook-Pro-1-heading-text">
-                            A MacBook Pro for everyone.
-                        </div>
-                    </div>
-                    <div class="A-MacBook-Pro-1-body">
-                        <div class="A-MacBook-Pro-1-body-1">
-                            <div class="A-MacBook-Pro-1-body-1-heading">
-                                <div class="A-MacBook-Pro-1-body-1-heading-text1">
-                                    MacBook Pro 14”
-                                </div>
-                                <div class="A-MacBook-Pro-1-body-1-heading-text2">
-                                    M3 chip
-                                </div>
-                            </div>
-                            <div class="A-MacBook-image">
-                                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/model_mbp_14_m3__dyengvhazxme_large.jpg" alt="error" height="auto" width="80%px">
-                            </div>
-                            <div class="MacBook-color">
-                                <div class="MacBook-color-text">Space Gray</div>
-                                <div class="MacBook-color-text">Silver</div>
-                            </div>
-                            <div class="M3">
-                                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/icon_mx__ge809jnkz7e6_large.png" alt="error" height="auto" width: 50px>
-                            </div>
-                            <div class="M3-note">
-                                <div class="M3-note-text">
-                                    Support for one <br>
-                                    external display
-                                </div>
-                                <div class="M3-note-text">
-                                    Up to 22 hours <br>
-                                    battery life
-                                </div>
-                            </div>
-                        </div>
-                        <div class="A-MacBook-Pro-1-body-1">
-                            <div class="A-MacBook-Pro-1-body-1-heading">
-                                <div class="A-MacBook-Pro-1-body-1-heading-text1">
-                                    MacBook Pro 14”
-                                </div>
-                                <div class="A-MacBook-Pro-1-body-1-heading-text2">
-                                    M3 Pro or M3 Max chip
-                                </div>
-                            </div>
-                            <div class="A-MacBook-image">
-                                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/model_mbp_14_m3__dyengvhazxme_large.jpg" alt="error" height="auto" width="80%">
-                            </div>
-                            <div class="MacBook-color">
-                                <div class="MacBook-color-text">Space Black</div>
-                                <div class="MacBook-color-text">Silver</div>
-                            </div>
-                            <div class="M3">
-                             <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/icon_mx_pro_max__c2k8mrjv4k66_large_2x.png" alt="error" height="auto" width="120px">
-                            </div>
-                            <div class="M3-note">
-                                <div class="M3-note-text">
-                                    Support for up to two or<br>
-                                    four external display
-                                </div>
-                                <div class="M3-note-text">
-                                    Up to 18 hours <br>
-                                    battery life
-                                </div>
-                            </div>
-                        </div>
-                        <div class="A-MacBook-Pro-1-body-1">
-                            <div class="A-MacBook-Pro-1-body-1-heading">
-                                <div class="A-MacBook-Pro-1-body-1-heading-text1">
-                                    MacBook Pro 16”
-                                </div>
-                                <div class="A-MacBook-Pro-1-body-1-heading-text2">
-                                    M3 Pro or M3 Max chip
-                                </div>
-                            </div>
-                            <div class="A-MacBook-image">
-                                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/model_mbp_14_m3__dyengvhazxme_large.jpg" alt="error" height="auto" width="80%">
-                            </div>
-                            <div class="MacBook-color">
-                                <div class="MacBook-color-text">Space Black</div>
-                                <div class="MacBook-color-text">Silver</div>
-                            </div>
-                            <div class="M3">
-                                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/performance/icon_mx_pro_max__c2k8mrjv4k66_large_2x.png" alt="error" height="auto" width="120px">
-                            </div>
-                            <div class="M3-note">
-                                <div class="M3-note-text">
-                                    Support for up to two or <br>
-                                    four external displays
-                                </div>
-                                <div class="M3-note-text">
-                                    Up to 22 hours <br>
-                                    battery life
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <div class="The-best-display">
-            <div class="The-best-display-text">
-                The best display <br>
-                ever in a laptop
-            </div>
-        </div> 
-        <div class="The-best-display-video">
-            <div class="The-best-display-video-detail">
-                <video controls>
-                    <source src="https://www.apple.com/105/media/us/macbook-pro/2023/232a2dbf-5898-4fd1-a350-6a7c5c2e31c9/anim/themes/display/large_2x.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <div class="The-best-display-note">
-            <div class="The-best-display-note-text">
-                Extreme Dynamic Range (XDR) brings refined <br>
-                specular highlights, incredible detail in shadows, and <br>
-                vibrant, true‑to‑life colors. Calibrated in the factory, <br>
-                each Liquid Retina XDR display also features <br>
-                ProMotion and pro reference modes.
-            </div>
-        </div>
-        <div class="The-best-display-video1">
-            <div class="The-best-display-video1-note">
-                <video controls>
-                    <source src="https://www.apple.com/105/media/us/macbook-pro/2023/232a2dbf-5898-4fd1-a350-6a7c5c2e31c9/anim/themes/display-explode/large_2x.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <div class="The-best-display-note1">
-            <div class="The-best-display-note1-border">
-                <div class="The-best-display-note1-text">
-                    1 <br> <br>
-                    10,000 mini-LEDs <br>
-                    grouped for precise <br>
-                    brightness and contrast. <br>
-                </div>
-            </div>
-            <div class="The-best-display-note1-border">
-                <div class="The-best-display-note1-text">
-                2 <br> <br>
-                Custom optical films and <br>
-                diffusers mix and shape <br>
-                light efficiently. <br>
-            </div>
-            </div>
-            <div class="The-best-display-note1-border">
-                <div class="The-best-display-note1-text">
-                3 <br> <br>
-                LCD panel enables <br>
-                refresh rates of up <br>
-                to 120Hz. <br>
-            </div>
-            </div>
-        </div>
-        <div class="The-best-display-border"></div>
-        <div class="The-crisp-clear-commanding">
-            <div class="The-crisp-clear-commanding-text">
-                Crisp. Clear <br>
-                Commanding.
-            </div>
-        </div>
-        <div class="The-crisp-note">
-            <div class="The-crisp-note-image">
-                <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/camera-audio/camera_audio__db217smszz6u_large.jpg" alt="error!">
-            </div>
-            <div class="The-crisp-border">
-                <div class="The-crisp-border-note">
-                    <div class="The-crisp-border-note-text">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/camera-audio/icon_camera__fiesagqr3vm2_large.png" alt="error!" style="height: 20px;" style="width: 20px;">
-                        <br>
-                        1080p camera. <br>
-                        It makes video <br>
-                        calls feel more like the real thing — <br>
-                        with technologies to help you look <br>
-                        sharp in any light.
+}
+.Game-changing-faster-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+}
+.Game-changing-than{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 270px;
+    animation: fadeIn 10s;
 
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="All-the-right">
-            <div class="All-the-right-text">
-                All the right <br>
-                connections. <br>
-            </div>
-        </div>
-        <div class="All-the-right">
-            <div class="All-the-right-text-body">
-                MacBook Pro packs a powerful array of ports for <br>
-                connecting high-speed peripherals, driving high- <br>
-                resolution displays, or directly offloading SDXC <br>
-                cards. And it supports both Wi-Fi 6E and <br>
-                Bluetooth 5.3. <br>
-            </div>
-        </div>
-        <div class="All-the-right-footer">
-            <div class="All-the-right-footer-border">
-                <div class="All-the-right-footer-border-text1"></div>
-                <div class="All-the-right-footer-border-text2">
-                    Thunderbolt <br>
-                    HDMI <br>
-                    SDXC <br>
-                    Headphone jack <br>
-                    MagSafe
-                </div>
-            </div>
-            <div class="All-the-right-footer-border">
-                <div class="All-the-right-footer-border-text1"></div>
-                <div class="All-the-right-footer-border-text3">
-                    Drive external displays. Connect <br>
-                    one high-resolution external <br>
-                    display with M3, up to two with <br>
-                    M3 Pro, or up to four with M3 Max.
-                </div>
-            </div>
-        </div>
-        <div class="Security">
-            <div class="Security-heading">
-                Security at the <br>
-                touch of a finger.
-            </div>
-        </div>
-        <div class="Security-image">
-            <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/themes/keyboard/keyboard__ce736vusmrrm_large.jpg" alt="error" style="height: auto;" style="width: 500px">
-        </div>
-        <div class="Significant-others">
-            <div class="Significant-others-text">
-                Significant others. <br> <br>
-            </div>
-            <div class="Significant-others-body">kien</div>
-        </div>
-        <div class="Why-Apple">
-            <div class="Why-Apple-heading">
-                <div class="Why-Apple-heading-left">
-                    <div class="Why-Apple-heading-left-text">
-                        Why Apple is the best <br>
-                        place to buy Mac.
-                    </div>
-                </div>
-                <div class="Why-Apple-heading-right">
-                    <div class="Why-Apple-heading-right-text">
-                        <a href="https://www.youtube.com/watch?v=h7cOOfpdEfk&list=RDJQ9bET0lq4w&index=7" style="color: blue;">Shop Mac ></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="Compare-MacBook">
-            <div class="Compare-MacBook-text-left">
-                Compare with MacBook Air.
-            </div>
-            <div class="Compare-MacBook-text-right">
-                <a href="https://www.youtube.com/watch?v=MsuzMwWGBrY" style="color: blue;">Explore all Mac models ></a>
-            </div>
-        </div>
-        <div class="Compare-MacBook-image">
-            <div class="Compare-MacBook-image1">
-                <div class="Compare-MacBook-left-right">
-                    <div class="Compare-MacBook-body1">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/contrast/product_tile_mbp_14_16__br3iijc0eys2_large.png" alt="error !" style="width: 360px;" style="height: auto;">
-                    </div>
-                    <div class="Compare-MacBook-body2">
-                        <div class="Compare-MacBook-body2-note">
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: black;"></div>
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: rgb(222, 222, 222);"></div>
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: rgb(138, 138, 138);"></div>
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new">
-                        <div class="Compare-MacBook-new-text">
-                            New
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new">
-                        <div class="Compare-MacBook-new-text1">
-                            MacBook Pro 14” and 16”
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new">
-                        <div class="Compare-MacBook-new-text2">
-                            M3, M3 Pro, or M3 Max chip
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new" style="margin-top: 10px;">
-                        <div class="Compare-MacBook-new-text3">
-                            The most advanced Mac laptops <br>
-                            for demanding workflows.
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new" style="margin-top: 10px;">
-                        <div class="Compare-MacBook-new-text4">
-                            From $1599 or $133.25/mo. for 12 mo.*
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-footer">
-                        <div class="Compare-MacBook-footer-text">
-                            Currently viewing
-                        </div>
-                        <div class="Compare-MacBook-footer-text1">
-                        <a href="https://apple.com/shop/buy-mac/macbook-pro" style="color: #007BFF;">Buy ></a>
-                    </div>
-                    </div>
-                </div>
-                <div class="Compare-MacBook-left-right">
-                    <div class="Compare-MacBook-body1" style="margin-top: 13px;">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/contrast/product_tile_mba_13_15__cw1q3qd2yyeu_large.png" alt="error !" style="width: 360px;" style="height: auto;">
-                    </div>
-                    <div class="Compare-MacBook-body2">
-                        <div class="Compare-MacBook-body2-note">
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: black;"></div>
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: rgb(175, 146, 95);"></div>
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: rgb(231, 231, 231);"></div>
-                            <div class="Compare-MacBook-body2-note-button" style="background-color: rgb(141, 137, 137);"></div>
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new">
-                        <div class="Compare-MacBook-new-text" style="height: 18px;">
-                            
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new">
-                        <div class="Compare-MacBook-new-text1">
-                            MacBook Air 13” and 15”
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new">
-                        <div class="Compare-MacBook-new-text2">
-                            M2 chip
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new" style="margin-top: 10px;">
-                        <div class="Compare-MacBook-new-text3">
-                            Strikingly thin and fast so you can <br>
-                            work, play, or create anywhere.
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-new" style="margin-top: 10px;">
-                        <div class="Compare-MacBook-new-text4">
-                            From $1099 or $91.58/mo. for 12 mo.*
-                        </div>
-                    </div>
-                    <div class="Compare-MacBook-footer">
-                        <div class="Compare-MacBook-footer-border">
-                            <div class="Compare-MacBook-footer-text2">
-                                <a href="https://flexboxfroggy.com/?fbclid=IwAR2oWGmA_xZ9bb1uB3Cm5IwBuLSSfeaNfntQFsY9vbL6tjEXll4Jv7ZtDnw" style="color: white;">Learn more</a>
-                            </div>
-                        </div>
-                        <div class="Compare-MacBook-footer-text1">
-                        <a href="https://apple.com/shop/buy-mac/macbook-pro" style="color: #007BFF;">Buy ></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="border-compare">
-            <div class="border-compare1"></div>
-        </div>
-        <div class="Compare-footer">
-            <div class="Compare-footer-details">
-                <div class="Compare-footer-details-left-right">
-                    <div class="Compare-footer-image">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/contrast/product_tile_icon_m3_pro_max__bwd1qyauqxv6_large.png" alt="1" style="width: 150px; height:auto;">
-                    </div>
-                    <div class="Compare-footer-body1">
-                        <div class="Compare-footer-body1-text">
-                            Apple M3, M3 Pro, or M3 Max chip
-                        </div>
-                        <div class="Compare-footer-body1-text" style="margin-top: 30px;">
-                            Up to
-                        </div>
-                        <div class="Compare-footer-body1-text1" style="margin-top: 5px;">
-                            22 hrs
-                        </div>
-                        <div class="Compare-footer-body1-text" style="margin-top: 5px;">
-                            battery life
-                            <br> <br> <br> <br>
-                        </div>
-                        <div class="Compare-footer-body1-text">
-                            Up to
-                        </div>
-                        <div class="Compare-footer-body1-text1">
-                            7 ports
-                        </div>
-                        <div class="Compare-footer-body1-text" style="margin-top: 5px;">
-                            2x Thunderbolt / USB 4 or 3x Thunderbolt 4, HDMI, SDXC, <br>
-                            headphone jack, MagSafe
-                        </div>
-                    </div>
-                </div>
-                <div class="Compare-footer-details-left-right">
-                    <div class="Compare-footer-image">
-                        <img src="https://www.apple.com/v/macbook-pro/aj/images/overview/contrast/product_tile_icon_m2__f16b5u54j7iq_large.png" alt="1" style="height: auto; width:150px;">
-                    </div>
-                    <div class="Compare-footer-body1">
-                        <div class="Compare-footer-body1-text">
-                            Apple M2 chip
-                        </div>
-                        <div class="Compare-footer-body1-text" style="margin-top: 30px;">
-                            Up to
-                        </div>
-                        <div class="Compare-footer-body1-text1" style="margin-top: 5px;">
-                            18 hrs
-                        </div>
-                        <div class="Compare-footer-body1-text" style="margin-top: 5px;">
-                            battery life <br> <br> <br> <br>
-                        </div>
-                        <div class="Compare-footer-body1-text" style="height: 14px;"></div>
-                        <div class="Compare-footer-body1-text1">
-                            4 ports
-                        </div>
-                        <div class="Compare-footer-body1-text" style="height: 27px; padding-top: 5px;">
-                            2x Thunderbolt / USB 4, headphone jack, MagSafe
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="Mac1-background">
-            <div class="Mac1">
-                <div class="Mac1-heading">
-                    <div class="Mac1-heading-text">
-                        Mac
-                    </div>
-                </div>
-                <div class="Mac1-body">
-                    <div class="Mac1-body1">
-                        <div class="Mac1-body1-text">
-                            Explore Max
-                            <br> <br>
-                        </div>
-                        <div class="Mac1-body1-text1">
-                            <a href="https://www.apple.com/mac/" style="color: black;">Explore All Mac <br></a>
-                            <a href="https://www.apple.com/macbook-air/" style="color: black;">MacBook Air <br></a>
-                            <a href="https://www.apple.com/macbook-pro/" style="color: black;">MacBook Pro <br></a>
-                            <a href="https://www.apple.com/imac/" style="color: black;">iMac <br></a>
-                            <a href="https://www.apple.com/mac-mini/" style="color: black;">Mac mini <br></a>
-                            <a href="https://www.apple.com/mac-studio/" style="color: black;">Mac Studio <br></a>
-                            <a href="https://www.apple.com/mac-pro/" style="color: black;">Mac Pro <br></a>
-                            <a href="https://www.apple.com/displays/" style="color: black;">Displays <br></a>
-                        </div>
-                        <div class="Mac1-body1-text2">
-                            <a href="https://www.apple.com/mac/compare/" style="color: black;"><br><br>Compare<br></a>
-                            <a href="https://www.apple.com/mac/mac-does-that/" style="color: black;"><br>Mac does that</a>
-                        </div>
-                    </div>
-                    <div class="Mac1-body2">
-                        <div class="Mac1-body1-text">Shop Mac <br><br></div>
-                        <div class="Mac1-body1-text2">
-                            <a href="https://www.apple.com/shop/buy-mac" style="color: black;">Shop Mac <br><br></a>
-                            <a href="https://www.apple.com/shop/mac/accessories" style="color: black;">Mac Accessories <br><br></a>
-                            <a href="https://www.apple.com/shop/trade-in" style="color: black;">Apple Trade In <br><br></a>
-                            <a href="https://www.apple.com/shop/browse/financing" style="color: black;">Financing</a>
-                        </div>
-                    </div>
-                    <div class="Mac1-body2">
-                        <div class="Mac1-body1-text">More from Mac<br><br></div>
-                        <div class="Mac1-body1-text2">
-                            <a href="https://support.apple.com/mac?cid=gn-ols-mac-psp-prodfly" style="color: black;">Mac Support <br><br></a>
-                            <a href="https://www.apple.com/support/products/mac/" style="color: black;">AppleCare+ for Mac <br><br></a>
-                            <a href="https://www.apple.com/macos/sonoma/" style="color: black;">macOS Sonoma <br><br></a>
-                            <a href="https://www.apple.com/apps/" style="color: black;">Apps by Apple <br><br></a>
-                            <a href="https://www.apple.com/macos/continuity/" style="color: black;">Continuity <br><br></a>
-                            <a href="https://www.apple.com/icloud/" style="color: black;">iCloud+ <br><br></a>
-                            <a href="https://www.apple.com/business/mac/" style="color: black;">Mac for Business <br><br></a>
-                            <a href="https://www.apple.com/education/" style="color: black;">Education</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="page-footer-background">
-            <div class="page-footer" style="border: 0px;">
-                <div class="page-footer-text">
-                    * Price refers to MacBook Pro 14” with M3 or MacBook Air 13” with M2. Monthly pricing is available when you select Apple Card Monthly Installments (ACMI) as payment type at <br>checkout at Apple, and is subject to credit approval and credit limit. Financing terms vary by product. Taxes and shipping are not included in ACMI and are subject to your card’s <br>variable APR. See the Apple Card Customer Agreement for more information. ACMI is not available for purchases made online at special storefronts. The last month’s payment <br>for each product will be the product's purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, <br>including but not limited to, installment term lengths and eligible products. See support.apple.com/kb/HT211204 for information about upcoming changes to ACMI financing. <br><br>
-                </div>
-                <div class="page-footer-text">
-                    ◊ Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible Apple products purchased at <br>Apple Store locations, apple.com, the Apple Store app, or by calling 1‑800‑MY‑APPLE, and is subject to credit approval and credit limit. See support.apple.com/kb/HT211204 for <br>more information about eligible products. APR ranges may vary based on when you accepted an Apple Card. Cardholders who accept an Apple Card on and/or after August 10, <br>2023: Variable APRs for Apple Card, other than ACMI, range from 19.24% to 29.49% based on creditworthiness. Rates as of August 10, 2023. Existing cardholders: See your <br>Customer Agreement for applicable rates and fee. If you buy an ACMI eligible product by choosing to pay in full with Apple Card (instead of using ACMI), that purchase is subject <br>to the Apple Card variable APR, not 0% APR. Taxes and shipping on ACMI purchases are subject to the variable APR, not 0% APR. You’ll need to select AT&T, T‑Mobile, or Verizon as your carrier when you check out. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI financing is subject to change at any time for any reason, including but not limited to, installment term lengths and eligible products. See support.apple.com/kb/HT211204 for information about upcoming changes to ACMI financing. See the Apple Card Customer Agreement for more information about ACMI financing. <br><br>
-                </div>
-                <div class="page-footer-text">
-                    To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch. <br><br>
-                </div>
-                <div class="page-footer-text">
-                    If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card. <br><br>
-                </div>
-                <ol class="page-footer-text" style="text-align: start;">
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 512GB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 8 clicks from bottom. The Apple TV app movie playback test measures battery life by playing back HD 1080p content with display brightness set to 8 clicks from bottom. Battery life varies by use and configuration. See apple.com/batteries for more information. <br><br></li>
-                    <li>MacBook Pro with M3 chip is not available in Space Black. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Redshift v3.5.18 tested using a 29.2MB scene utilizing hardware-accelerated ray tracing on M3-based systems, and software-based ray tracing on all other units. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 48GB of RAM, and 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM. Performance measured using select industry‑standard benchmarks. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M2, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M1, 8-core CPU, 8-core GPU, and 16GB of RAM, and production 1.7GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics 645 and 16GB of RAM, all configured with 2TB SSD. Super Resolution tested with Photomator 3.1.2 using a 4.4MB image. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M2, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M1, 8-core CPU, 8-core GPU, and 16GB of RAM, and production 1.7GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics 645 and 16GB of RAM, all configured with 2TB SSD. Final Cut Pro 10.6.9 tested using a complex 2-minute project with 4K ProRes 422 media. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M2, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M1, 8-core CPU, 8-core GPU, and 16GB of RAM, and production 1.7GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics 645 and 16GB of RAM, all configured with 2TB SSD. Tested with Affinity Photo 2 v2.1.1 using the built-in benchmark version 21000. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M2, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M1, 8-core CPU, 8-core GPU, and 16GB of RAM, and production 1.7GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics 645 and 16GB of RAM, all configured with 2TB SSD. Open source project built with Xcode 15.0 and Apple Clang 15.0.0. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M2, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M1, 8-core CPU, 8-core GPU, and 16GB of RAM, and production 1.7GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics 645 and 16GB of RAM, all configured with 2TB SSD. Tested with a selection of tasks using Microsoft Excel v16.77.1. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M2, 8-core CPU, 10-core GPU, and 24GB of RAM, production 13-inch MacBook Pro systems with Apple M1, 8-core CPU, 8-core GPU, and 16GB of RAM, and production 1.7GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics 645 and 16GB of RAM, all configured with 2TB SSD. Tested with Logic Pro 10.7.9 with project consisting of multiple tracks, each with an Amp Designer plug-in instance applied. Individual tracks were added during playback until CPU became overloaded. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, production 14-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, 32GB of RAM, and 8TB SSD, production 14-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, 32GB of RAM, and 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Redshift v3.5.18 tested using a 29.2MB scene utilizing hardware-accelerated ray tracing on M3-based systems, and software-based ray tracing on all other units. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, production 14-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, 32GB of RAM, and 8TB SSD, production 14-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, 32GB of RAM, and 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested with MATLAB and Simulink R2023b v23.2.0 and Parallel Computing Toolbox using a vehicle dynamics model. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, production 14-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, 32GB of RAM, and 8TB SSD, production 14-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, 32GB of RAM, and 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested using Adobe Premiere Pro (Beta) 24.1, and a project with multiple dialog-heavy video clips. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, production 14-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, 32GB of RAM, and 8TB SSD, production 14-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, 32GB of RAM, and 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested with a 258MB study size using prerelease Horos MD. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, production 14-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, 32GB of RAM, and 8TB SSD, production 14-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, 32GB of RAM, and 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Adobe Photoshop 25.0.0 tested using the following filters and functions: color range, minimum, maximum, rotate image arbitrary, and content-aware fill. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, production 14-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, 32GB of RAM, and 8TB SSD, production 14-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, 32GB of RAM, and 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested with Affinity Photo 2 v2.1.1 using the built-in benchmark version 21000. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro.</li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, as well as production 16-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, and 32GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, and 32GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Redshift v3.5.18 tested using a 29.2MB scene utilizing hardware-accelerated ray tracing on M3-based systems, and software-based ray tracing on all other units. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, as well as production 16-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, and 32GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, and 32GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested with MATLAB and Simulink R2023b v23.2.0 and Parallel Computing Toolbox using a vehicle dynamics model. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, as well as production 16-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, and 32GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, and 32GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested using Adobe Premiere Pro (Beta) 24.1, and a project with multiple dialog-heavy video clips. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, as well as production 16-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, and 32GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, and 32GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested with a 258MB study size using prerelease Horos MD. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, as well as production 16-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, and 32GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, and 32GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Adobe Photoshop 25.0.0 tested using the following filters and functions: content-aware scale, perspective warp, unsharp mask, motion blur, and bas relief. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 36GB of RAM, and 4TB SSD, as well as production 16-inch MacBook Pro systems with Apple M2 Pro, 12-core CPU, 19-core GPU, and 32GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Pro, 10-core CPU, 16-core GPU, and 32GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested with Affinity Photo 2 v2.1.1 using the built-in benchmark version 21000. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Redshift v3.5.18 tested using a 29.2MB scene utilizing hardware-accelerated ray tracing on M3-based systems, and software-based ray tracing on all other units. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested with MATLAB and Simulink R2023b v23.2.0 and Parallel Computing Toolbox using a vehicle dynamics model. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested with Affinity Photo 2 v2.1.1 using the built-in benchmark version 21000. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested with a 258MB study size using prerelease Horos MD. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Tested using Adobe Premiere Pro (Beta) 24.1, and a project with multiple dialog-heavy video clips. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD, and production 2.3GHz quad-core Intel Core i7-based 13-inch MacBook Pro systems with Intel Iris Plus Graphics, 32GB of RAM, and 4TB SSD. Adobe Photoshop 25.0.0 tested using the following filters and functions: color range, minimum, maximum, rotate image arbitrary, and content-aware fill. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 14-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, and production 14-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, all configured with 8TB SSD. DaVinci Resolve Studio 18.6 tested using a 28-second project with Apple ProRes 4444 XQ UHD media and spatial noise reduction effect applied, on systems that supported the workload. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested with MATLAB and Simulink R2023b v23.2.0 and Parallel Computing Toolbox using a vehicle dynamics model. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested with Affinity Photo 2 v2.1.1 using the built-in benchmark version 21000. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested with a 258MB study size using prerelease Horos MD. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested using Adobe Premiere Pro (Beta) 24.1, and a project with multiple dialog-heavy video clips. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Adobe Photoshop 25.0.0 tested using the following filters and functions: content-aware scale, perspective warp, unsharp mask, motion blur, and bas relief. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. DaVinci Resolve Studio 18.6 tested using a 28-second project with Apple ProRes 4444 XQ UHD media and spatial noise reduction effect applied. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Tested using Adobe Premiere Pro (Beta) 24.1, and a project with multiple dialog-heavy video clips. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. Adobe Photoshop 25.0.0 tested using the following filters and functions: content-aware scale, perspective warp, unsharp mask, motion blur, and bas relief. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 16-inch MacBook Pro systems with Apple M3 Max, 16-core CPU, 40-core GPU, and 128GB of RAM, production 16-inch MacBook Pro systems with Apple M2 Max, 12-core CPU, 38-core GPU, and 96GB of RAM, production 16-inch MacBook Pro systems with Apple M1 Max, 10-core CPU, 32-core GPU, and 64GB of RAM, and production 2.4GHz 8-core Intel Core i9-based 16-inch MacBook Pro systems with Radeon Pro 5600M graphics with 8GB of HBM2, and 64GB of RAM, all configured with 8TB SSD. DaVinci Resolve Studio 18.6 tested using a 28-second project with Apple ProRes 4444 XQ UHD media and spatial noise reduction effect applied. Performance tests are conducted using specific computer systems and reflect the approximate performance of MacBook Pro. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3, 8-core CPU, 10-core GPU, 8GB of RAM, and 512GB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 8 clicks from bottom. The Apple TV app movie playback test measures battery life by playing back HD 1080p content with display brightness set to 8 clicks from bottom. Battery life varies by use and configuration. See apple.com/batteries for more information. <br><br></li>
-                    <li>MacBook Pro with M3 Pro chip supports up to two external displays. MacBook Pro with M3 Max chip supports up to four external displays. <br><br></li>
-                    <li>Testing conducted by Apple in September and October 2023 using preproduction 14-inch MacBook Pro systems with Apple M3 Pro, 12-core CPU, 18-core GPU, 18GB of RAM, and 1TB SSD. The wireless web test measures battery life by wirelessly browsing 25 popular websites with display brightness set to 8 clicks from bottom. The Apple TV app movie playback test measures battery life by playing back HD 1080p content with display brightness set to 8 clicks from bottom. Battery life varies by use and configuration. See apple.com/batteries for more information. <br><br></li>
-                    <li>Claim refers to 16‑inch MacBook Pro. <br><br></li>
-                    <li>Port configuration varies by model. <br><br></li>
-                    <li>Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. <br><br></li>
-                    <li>Testing conducted by Apple in April and May 2023 using preproduction 15‑inch MacBook Air systems with Apple M2, 8-core CPU, 10-core GPU, 8GB of RAM, and 256GB SSD. The Apple TV app movie playback test measures battery life by playing back HD 1080p content with display brightness set to 8 clicks from bottom. Battery life varies by use and configuration. See apple.com/batteries for more information <br><br></li>
-                </ol>
-                <div class="page-footer">
-                <div class="page-footer-text">
-                    Some features may not be available in all regions or all languages. <br><br>
-                    Some features require an Apple ID, compatible hardware, and compatible internet access or cellular network; additional fees and terms may apply. <br><br>
-                    Some features require specific hardware and software. For more information, see "Feature Requirements" at support.apple.com/macos/upgrade. <br><br>
-                    Lies of P © NEOWIZ. All rights reserved. <br><br>
-                    Stray coming later this year. <br><br>
-                    Horos MD app is subject to regulatory approval. Check with the app developer for availability date. <br><br><br><br>
-                </div>
-                </div>
-                <div class="page-footer1">
-                    <div class="page-footer1-heading">
-                        <a href="https://www.apple.com/">
-                            <img src="https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/428599659_2091958481203215_7758769776884132456_n.jpg?stp=cp0_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGON7MDhh_l_08pP4rWBvAp-jgovCTvDqT6OCi8JO8OpLSyKSIppehMstwQiP4AFHYfRs2Mo_k0N_yI0cLUXiIP&_nc_ohc=oKeV2SCVMwMAX9OT3z7&_nc_ht=scontent-hkg1-1.xx&oh=00_AfBnQSflTC3Ylz1PKRZVhP3VHslA6Fv79BmkKeAz2JRVVA&oe=65D55C19" alt="1">
-                        </a>
-                        <span class="page-footer-text"> &nbsp; > &nbsp;</span>
-                        <a href="https://www.apple.com/" class="page-footer-text">Mac</a>
-                        <span class="page-footer-text"> &nbsp; > &nbsp; MacBook pro</span>
-                    </div>
-                    <div class="page-footer2">
-                        <div class="page-footer2-note">
-                            <div class="page-footer-text" style="font-weight: bold; color:black;">Shop and Learn <br><br></div>
-                            <a href="https://www.apple.com/store" class="page-footer-text">Store <br><br></a>
-                            <a href="https://www.apple.com/store" class="page-footer-text">Mac <br><br></a>
-                            <a href="https://www.apple.com/ipad/" class="page-footer-text">iPad <br><br></a>
-                            <a href="https://www.apple.com/iphone/" class="page-footer-text">iPhone <br><br></a>
-                            <a href="https://www.apple.com/watch/" class="page-footer-text">Watch <br><br></a>
-                            <a href="https://www.apple.com/apple-vision-pro/" class="page-footer-text">Vision <br><br></a>
-                            <a href="https://www.apple.com/airpods/" class="page-footer-text">AirPods <br><br></a>
-                            <a href="https://www.apple.com/tv-home/" class="page-footer-text">TV & Home <br><br></a>
-                            <a href="https://www.apple.com/airtag/" class="page-footer-text">Accessories <br><br></a>
-                            <a href="https://www.apple.com/shop/gift-cards" class="page-footer-text">Gift Cards <br><br><br></a>
-                            <div class="page-footer-text" style="font-weight: bold; color:black;">
-                                Apple Wallet <br><br>
-                            </div>
-                            <a href="https://www.apple.com/wallet/" class="page-footer-text">Wallet <br><br></a>
-                            <a href="https://www.apple.com/apple-card/" class="page-footer-text">Apple Card <br><br></a>
-                            <a href="https://www.apple.com/apple-pay/" class="page-footer-text">Apple Pay <br><br></a>
-                        </div>
-                        <div class="page-footer2-note">
-                            <div class="page-footer-text" style="color: black; font-weight:bold;">
-                                Account <br><br>
-                            </div>
-                            <a href="https://appleid.apple.com/us/" class="page-footer-text">Manage your Apple ID <br><br></a>
-                            <a href="https://secure6.store.apple.com/shop/signIn/account?ssi=1AAABjbe_uEYgtOZ2VXTdjWdfSvvxbxE9kOnVWXc94YulhEFS0N056qkAAAAzaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL2FjY291bnQvaG9tZXx8AAIBTrGaMFMk6mN4SlPmFTGYcUgZ_hKx2oGV_fS4gw740J4" class="page-footer-text">Apple Store Account <br><br></a>
-                            <a href="https://www.icloud.com/" class="page-footer-text">iCloud <br><br><br></a>
-                            <div class="page-footer-text" style="color:black; font-weight: bold;">
-                                Entertainment <br><br>
-                            </div>
-                            <a href="https://www.apple.com/apple-one/" class="page-footer-text">Apple One <br><br></a>
-                            <a href="https://www.apple.com/apple-tv-plus/" class="page-footer-text">Apple TV+ <br><br></a>
-                            <a href="https://www.apple.com/apple-music/" class="page-footer-text">Apple Music <br><br></a>
-                            <a href="https://www.apple.com/apple-arcade/" class="page-footer-text">Apple Arcade <br><br></a>
-                            <a href="https://www.apple.com/apple-fitness-plus/" class="page-footer-text">Apple Fitness+ <br><br></a>
-                            <a href="https://www.apple.com/apple-news/" class="page-footer-text">Apple News+ <br><br></a>
-                            <a href="https://www.apple.com/macbook-pro/" class="page-footer-text">Apple Podcasts <br><br></a>
-                            <a href="https://www.apple.com/apple-books/" class="page-footer-text">Apple Books <br><br></a>
-                            <a href="https://www.apple.com/app-store/" class="page-footer-text">App Store <br><br></a>
-                        </div>
-                        <div class="page-footer2-note">
-                            <div class="page-footer-text" style="color: black; font-weight: bold;">
-                                Apple Store <br><br>
-                            </div>
-                            <a href="https://www.apple.com/retail/" class="page-footer-text">Find a Store <br><br></a>
-                            <a href="https://www.apple.com/retail/geniusbar/" class="page-footer-text">Genius Bar <br><br></a>
-                            <a href="https://apple.com/today/" class="page-footer-text">Today at Apple <br><br></a>
-                            <a href="https://www.apple.com/today/camp/" class="page-footer-text">Apple Camp <br><br></a>
-                            <a href="https://apps.apple.com/us/app/apple-store/id375380948"class="page-footer-text">Apple Store App <br><br></a>
-                            <a href="https://www.apple.com/shop/refurbished" class="page-footer-text">Certified Refurbished <br><br></a>
-                            <a href="https://www.apple.com/shop/trade-in" class="page-footer-text">Apple Trade in <br><br></a>
-                            <a href="https://www.apple.com/shop/browse/financing" class="page-footer-text">Financing <br><br></a>
-                            <a href="https://www.apple.com/shop/buy-iphone/carrier-offers" class="page-footer-text">Carrier Deals at Apple <br><br></a>
-                            <a href="https://secure7.store.apple.com/shop/signIn/orders?ssi=1AAABjbpMzGwgsDKoLIir2KJS4-AJM9sjYEPsiV7l3clk3ewrDmIkQPIAAAAxaHR0cHM6Ly9zZWN1cmU3LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAUJLU5vAbErdnRzDQinzZuPlcwL4qF0celWvLyHY2pNY" class="page-footer-text">Order Status <br><br></a>
-                            <a href="https://www.apple.com/shop/help" class="page-footer-text">Shopping help <br><br></a>
-                        </div>
-                        <div class="page-footer2-note">
-                            <div class="page-footer-text" style="color: black; font-weight:bold;">For Business <br><br></div>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Apple and Business <br><br></a>
-                            <a href="https://www.apple.com/retail/business/" class="page-footer-text">Shop for Business <br><br><br></a>
-                            <div class="page-footer-text" style="color: black; font-weight: bold;">For Education <br><br></div>
-                            <a href="https://www.apple.com/education/" class="page-footer-text">Apple and Education <br><br></a>
-                            <a href="https://www.apple.com/education/k12/#how-to-buy" class="page-footer-text">Shop for K-12 <br><br></a>
-                            <a href="https://www.apple.com/us-edu/store" class="page-footer-text">Shop for College <br><br><br></a>
-                            <div class="page-footer-text" style="color: black; font-weight:bold;">For Healthcare <br><br></div>
-                            <a href="https://www.apple.com/healthcare/" class="page-footer-text">Apple in Healthcare <br><br></a>
-                            <a href="https://www.apple.com/healthcare/apple-watch/" class="page-footer-text">Health on Apple Watch <br><br></a>
-                            <a href="https://www.apple.com/healthcare/health-records/" class="page-footer-text">Health Records on Apple <br><br><br></a>
-                            <div class="page-footer-text" style="color: black; font-weight:bold;">For Government <br><br></div>
-                            <a href="https://www.apple.com/r/store/government/" class="page-footer-text">Shop for Government <br><br></a>
-                        </div>
-                        <div class="page-footer2-note">
-                            <div class="page-footer-text" style="color: black; font-weight:bold;">Apple Values <br><br></div>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Accessibility <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Education <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Environment <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Inclusion and Diversity <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Privacy <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Racial Equity and Justice <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Supplier Responsibility <br><br><br></a>
-                            <div class="page-footer-text" style="color: black; font-weight:bold;">About Apple <br><br></div>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Newsroom <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Apple Leadership <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Career Opportunities <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Investors <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Ethics & Compliance <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Events <br><br></a>
-                            <a href="https://www.apple.com/business/" class="page-footer-text">Contact Apple <br><br></a>                        </div>
-                    </div>
-                </div>
-                </div>
-        </div>  
-    </div>
-</body>
-</html>
+}
+.Game-changing-than-text{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+}
+.Hard-ware{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+    animation: fadeIn 10s;
+}
+.Hard-ware-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Hard-ware-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+    animation: fadeIn 10s;
+}
+.Hard-ware-heading-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Hard-ware-video-image{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid white;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    animation: fadeIn 10s;
+}
+.Hard-ware-video{
+    position: absolute;
+    z-index: 2;
+    margin-top: 5px;
+    width: 950px;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+video{
+    width: 100%;
+    height: auto;
+}
+.Hard-ware-video:hover{
+    cursor: pointer;
+}
+.Hard-ware-footer{
+    width: 68%;
+    height: auto;
+    margin-left: 16%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+    text-align: end;
+}
+.Hard-ware-footer-text{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Up-to-o-ver{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.Up-to{
+    width: calc(100%/2 - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid white;
+}
+.o-ver{
+    width: calc(100%/2 - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid white;
+}
+.Up-to-text1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Up-to-text2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Up-to-text3{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.border-after-Up-to{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 400px;
+}
+.We-can-do{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.We-can-do-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.We-can-do-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.We-can-do-heading-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.We-can-do-image-video{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.We-can-do-video{
+    position: absolute;
+    z-index: 2;
+    margin-top: 5px;
+    width: 950px;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+.We-can-do-video:hover{
+    cursor: pointer;
+}
+.We-can-do-image{
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 0px;
+}
+.We-can-do-footer{
+    width: 68%;
+    height: auto;
+    margin-left: 16%;
+    border: 0px solid white;
+    margin-bottom: 50px;
+    text-align: end;
+}
+.We-can-do-footer-text{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.We-can-d0-up-to{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.We-can-do-up-to{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.We-can-do-up-to-left{
+    width: calc(100%/2 - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid white;
+}
+.We-can-do-up-to-left-text1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+}
+.We-can-do-up-to-left-text2{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 5px;
+}
+.Amps-up{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.Amps-up-apps{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 80px;
+}
+.Amps-up-apps-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Amps-up-apps-heading{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    border: 0px solid white;
+    margin-bottom: 100px;
+}
+.Amps-up-apps-heading-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+a{
+    text-decoration: none;
+    font-weight: light;
+}
+.Amps-up-apps-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.Amps-up-apps-khung{
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    margin-left: 0%;
+    border: 0px solid white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Amps-up-apps-note{
+    position: absolute;
+    z-index: 2;
+    width: 900px;
+    height: auto;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Amps-up-apps-details{
+    position: static;
+    width: calc(100%/4 - 10px);
+    height: auto;
+    text-align: center;
+    border: 0px solid white;
+}
+.Amps-up-apps-text1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Table{
+    overflow: hidden;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 150px;
+}
+.Table-text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.Amps-up-apps-details:hover .Table{
+    display: block;
+}
+.A-MacBook-Pro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+.A-MacBook-Pro-1{
+    width: 1250px;
+    height: 850px;
+    background-color: rgb(35, 34, 34);
+    border-radius: 50px;
+}
+.A-MacBook-Pro-1-heading{
+    width: 70%;
+    height: auto;
+    border: 0px solid rgb(255, 255, 255);
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 80px;
+}
+.A-MacBook-Pro-1-heading-text{
+    text-align: start;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.A-MacBook-Pro-1-body{
+    width: 70%;
+    height: auto;
+    border: 0px solid rgb(255, 255, 255);
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.A-MacBook-Pro-1-body-1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 0px solid rgb(255, 255, 255);
+    height: auto;
+    width: calc(100%/3 - 30px);
+}
+.A-MacBook-Pro-1-body-1-heading{
+    border-bottom: 1px solid rgb(91, 91, 91);
+    margin-bottom: 40px;
+}
+.A-MacBook-Pro-1-body-1-heading-text1{
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.A-MacBook-Pro-1-body-1-heading-text2{
+    text-align: start;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+.MacBook-color{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.MacBook-color-text{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+}
+.M3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.M3-note{
+    width: 90%;
+    height: auto;
+}
+.M3-note-text{
+    text-align: start;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+}
+.The-best-display{
+    width: 50%;
+    margin-left: 25%;
+    height:auto;
+    margin-bottom: 50px;
+}
+.The-best-display-text{
+    text-align: start;
+    font-size: 64px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 50px;
+    line-height: auto;
+}
+.The-best-display-video{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px ;
+    overflow: hidden;
+}
+.The-best-display-video-detail{
+    overflow: hidden;
+    width: 2500px;
+    height: auto;
+}
+.The-best-display-video-detail:hover {
+    cursor: pointer;
+}
+.The-best-display-note{
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border: 0px solid black;
+}
+.The-best-display-note-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(68, 68, 68, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 100px;
+}
+.The-best-display-video1{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px ;
+    overflow: hidden;
+}
+.The-best-display-video1-note{
+    width: 900px;
+    height: auto;
+}
+.The-best-display-note1{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 250px;
+}
+.The-best-display-note1-border{
+    width: calc(100%/3 -10px);
+    height: auto;
+}
+.The-best-display-note1-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.The-best-display-border{
+    width: 100%;
+    margin-bottom: 300px;
+    border-bottom: 0px solid black;
+}
+.The-crisp-clear-commanding{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 100px;
+}
+.The-crisp-clear-commanding-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.The-crisp-note{
+    width: 90%;
+    margin-left: 0%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+}
+.The-crisp-note-image{
+    max-width: 50%;
+    max-height: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    object-position: right;
+}
+.The-crisp-border{
+    width: calc(100%/2 - 20px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 20px;
+}
+.The-crisp-border-note{
+    width: 100%;
+    height: auto;
+    text-align: start;
+}
+.The-crisp-border-note-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 50px;
+}
+.All-the-right-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-text-body{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(133, 133, 133, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-footer{
+    margin-top: 100px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.All-the-right-footer-border{
+    width: calc(100%/2 - 60px);
+    border: 0px solid black;
+    margin-bottom: 200px;
+}
+.All-the-right-footer-border-text1{
+    text-align: start;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-footer-border-text2{
+    text-align: start;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.All-the-right-footer-border-text3{
+    text-align: start;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Security{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    border: 0px solid black;
+    margin-bottom: 50px;
+}
+.Security-heading{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 100px;
+}
+.Security-image{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.Significant-others{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid black;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.Significant-others-text{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Significant-others-body{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+.Why-Apple{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    background-color: #f5f5f5 ;
+    margin-bottom: 50px;
+}
+.Why-Apple-heading{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.Why-Apple-heading-left{
+    width: calc(100%/2);
+    height: auto;
+    border: 0px solid black;
+}
+.Why-Apple-heading-left-text{
+    text-align: start;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Why-Apple-heading-right{
+    width: calc(100%/2);
+    height: auto;
+    border: 0px solid black;
+}
+.Why-Apple-heading-right-text{
+    text-align: end;
+    margin-top: 165px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(0, 55, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Why-Apple-heading-right-text:hover{
+    text-decoration: underline;
+}
+.Compare-MacBook{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border: 0px solid black;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.Compare-MacBook-text-left{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-text-right{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(0, 55, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-text-right:hover{
+    text-decoration: underline;  
+}
+.Compare-MacBook-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.Compare-MacBook-image1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0px solid black;
+}
+.Compare-MacBook-left-right{
+    width: calc(100%/2);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid black;
+}
+.Compare-MacBook-body1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 0px solid black;
+}
+.Compare-MacBook-body2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;  
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.Compare-MacBook-body2-note{
+    width: 150px;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.Compare-MacBook-body2-note-button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.Compare-MacBook-new{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border: 0px solid black;
+}
+.Compare-MacBook-new-text{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(111, 68, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text2{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-new-text4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.Compare-MacBook-footer-text{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(128, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-footer-text1{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Compare-MacBook-footer-text1:hover{
+    text-decoration: underline;
+    color: #007BFF;
+}
+.Compare-MacBook-footer-border{
+    width: 120px;
+    height: 20px;
+    background-color: #007BFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Compare-MacBook-footer-text2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.border-compare{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.border-compare1{
+    border: 0px solid rgb(210, 210, 210);
+    width: 700px;
+}
+.Compare-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.Compare-footer-details{
+    width: 700px;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.Compare-footer-details-left-right{
+    width: calc(100%/2 - 0px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px solid black;
+    overflow: hidden;
+}
+.Compare-footer-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.Compare-footer-body1{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    text-align: center;
+}
+.Compare-footer-body1-text{
+    font-size: 12px;
+    font-weight: light;
+    color: rgb(139, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: 0px solid black;
+    width: 100%;
+    height: auto;
+}
+.Compare-footer-body1-text1{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-background{
+    width: 100%;
+    height: auto;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: left; 
+}
+.Mac1{
+    margin-top: 80px;
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border: 0px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.Mac1-heading{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    margin-bottom: 100px;
+}
+.Mac1-heading-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.Mac1-body1{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    margin-right: 40px;
+}
+.Mac1-body1-text{
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(139, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body1-text1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body1-text2{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.Mac1-body2{
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 0px solid black;
+    margin-right: 40px;
+}
+.page-footer-background{
+    width: 100%;
+    height: auto;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: center;
+}
+.page-footer{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: start;
+    overflow: hidden;
+}
+.page-footer-text{
+    text-align: left;
+    font-size: 12.7px;
+    font-weight: normal;
+    color: rgb(117, 117, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.page-footer1{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+    flex-wrap: nowrap;
+}
+.page-footer1-heading{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    display: inline-block;
+}
+.page-footer2{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border: 0px solid rgb(183, 183, 183);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.page-footer2-note{
+    margin-right: 10px;
+    width: 180px;
+    height: auto;
+    text-align: start;
+    border: 0px solid black;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.page-footer-border{
+    width: 100%;
+    height: auto;
+    border: 0px solid rgb(183, 183, 183);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.page-footer-border-1{
+    width: 1000px;
+    height: auto;
+    border: 0px solid rgb(183, 183, 183);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.page-end{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #ececec;
+}
+.page-end-note{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border: 0px solid rgb(183, 183, 183);
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.page-end-note-details{
+    width: calc(800%/9 - 10px);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 0px solid rgb(183, 183, 183);
+}
+.page-end-note-details-left{
+    width: calc(100%/3 - 10px);
+    height: auto;
+}
+.page-end-note-details-right{
+    width: calc(200%/3 - 10px);
+    height: auto;
+}
+.page-end-note-details1{
+    width: calc(100%/9 -10px);
+    height: auto;
+}
